@@ -4,7 +4,8 @@
   "description": "wafi.cash coding challenge",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node ./src/index.js"
   },
   "keywords": [
     "p2p",
