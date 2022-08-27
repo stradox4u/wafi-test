@@ -9,6 +9,11 @@ describe('User Controller Tests', () => {
     expect(result).to.throw(Error, 'Name is required');
   });
 
+  it('Throws the correct error if the wrong type is provided', () => {
+    const result = userController.createUser.bind(this, 155);
+    expect(result).to.throw(Error, 'Name must be a string');
+  })
+
   it('Creates user correctly', () => {
     userController.createUser('A');
     expect(users).to.haveOwnProperty('A');

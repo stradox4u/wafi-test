@@ -1,5 +1,6 @@
 const users = require('../storage/storage');
 
+// Perhaps typechecking inputs would also be useful here.
 exports.userDeposit = (userName, amount) => {
   if (!userName) {
     throw new Error('Username is required');
