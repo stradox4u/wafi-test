@@ -1,0 +1,20 @@
+{
+  "name": "wafi-test",
+  "version": "1.0.0",
+  "description": "wafi.cash coding challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "p2p",
+    "payments"
+  ],
+  "author": "Umar Odeh Adejoh",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "sinon": "^14.0.0"
+  }
+}
